@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital@1&display=swap');
+
+
+body {
+    line-height: 1.6;
+    margin: 2rem;
+    background-color: #F6F1F1;
+}
+
+th {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+td {
+    border-top: 1px solid #eee;
+    padding: 0.5em 1em;
+    font-family: 'Wix Madefor Text', sans-serif;
+    
+}
+
+input {
+    cursor: pointer;
+}
+
+/* Column types */
+th.missed-col {
+    background-color: #f00;
+}
+
+td.missed-col {
+    background-color: #ffecec;
+    color: #f00;
+    text-align: center;
+}
+
+.name-col {
+    text-align: left;
+}
+.main-container{
+    background-color:#AFD3E2;
+    border-radius: 8px ;
+    
+}
+h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 25px; 
+    text-align: center;
+}
